@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sound Effect Panel</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./font.css" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="vignette"></div>
+
+    <div class="top-container" id="top-container">
+      <button id="pickFolder" class="btn">Choose folder…</button>
+      <button id="reloadBtn" class="btn">Reload sounds</button>
+      <button id="stopBtn" class="btn">Stop sounds</button>
+      <input type="file" id="fileInput" webkitdirectory multiple style="display:none" />
+      <label for="slider" class="slider-label">Volume</label>
+      <input type="range" id="slider" min="0" max="1" value="0.5" step="0.01" />
+    </div>
+
+    <div class="sound-effects" id="soundEffectsDiv"></div>
+
+    <script src="./screen2.js"></script>
+  </body>
+</html>
