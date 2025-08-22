@@ -1,0 +1,11 @@
+.top-container {
+    position: sticky;
+
+    top: 1%;
+    left: 50%;
+
+    background-color: rgba(0, 0, 0, 1);
+    padding-bottom: 20px;
+
+    z-index: 1;
+}
